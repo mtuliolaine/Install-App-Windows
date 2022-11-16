@@ -1,6 +1,16 @@
 ---
 - name: Instalação Firefox
-  win_chocolatey:
-    name: firefox
-    state: present
+  hosts: all
+  become: false
+  gather_facts: false
+  vars:
+    - packages: 
+      - git
+      - notepadplusplus
+      - firefox
+  tasks: 
+    - name: Instalação do Pacotes  
+      chocolatey.chocolatey.win_chocolatey:
+        name: "{{ packages }}"
+       state: present
 ...
