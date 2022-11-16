@@ -9,7 +9,7 @@
       - notepadplusplus
       - firefox
   collections:
-  - chocolatey.chocolatey
+    - chocolatey.chocolatey
   tasks: 
     - name: Instalação do Pacotes  
       chocolatey.chocolatey.win_chocolatey:
