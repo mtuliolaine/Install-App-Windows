@@ -1,11 +1,10 @@
 ---
-- name: Instalação Firefox
-  hosts: all
+- hosts: all
   become: false
   gather_facts: false
   tasks: 
-  - name: Instalação do Pacotes
-    win_chocolatey:
+- name: Instalação do Pacotes
+   win_chocolatey:
         name: firefox
         state: present
 ...
