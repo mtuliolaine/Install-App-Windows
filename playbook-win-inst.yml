@@ -10,7 +10,7 @@
       - firefox
   tasks: 
     - name: Instalação do Pacotes  
-      chocolatey.chocolatey.win_chocolatey:
+      win_chocolatey:
         name: "{{ packages }}"
         state: present
 ...
