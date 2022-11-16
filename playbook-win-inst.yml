@@ -1,10 +1,14 @@
 ---
-- hosts: all
+- name: win_chocolatey module demo
+  hosts: all
   become: false
   gather_facts: false
-  tasks: 
-    - name: Instalação do Pacotes
+  vars:
+    - packages:
+      - git
+      - notepadplusplus
+  tasks:
+    - name: install packages
       chocolatey.chocolatey.win_chocolatey:
-        name: firefox
+        name: "{{ packages }}"
         state: present
-...
