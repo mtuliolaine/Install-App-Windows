@@ -3,14 +3,9 @@
   hosts: all
   become: false
   gather_facts: false
-  vars:
-    - packages: 
-      - git
-      - notepadplusplus
-      - firefox
   tasks: 
-    - name: Instalação do Pacotes  
-      win_chocolatey:
-        name: "{{ packages }}"
+  - name: Instalação do Pacotes  
+    win_chocolatey:
+        name: firefox
         state: present
 ...
