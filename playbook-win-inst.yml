@@ -1,0 +1,6 @@
+---
+- name: Instalação Firefox
+  win_chocolatey:
+    name: firefox
+    state: present
+...
