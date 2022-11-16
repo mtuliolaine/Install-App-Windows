@@ -12,5 +12,5 @@
     - name: Instalação do Pacotes  
       chocolatey.chocolatey.win_chocolatey:
         name: "{{ packages }}"
-       state: present
+        state: present
 ...
