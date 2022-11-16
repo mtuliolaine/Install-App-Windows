@@ -8,7 +8,7 @@
       - git
       - notepadplusplus
   tasks:
-    - name: install packages
-      chocolatey.chocolatey.win_chocolatey:
-        name: "{{ packages }}"
-        state: present
+  - name: install packages
+    chocolatey.chocolatey.win_chocolatey:
+      name: "{{ packages }}"
+      state: present
