@@ -4,7 +4,7 @@
   become: false
   gather_facts: false
   tasks: 
-  - name: Instalação do Pacotes  
+  - name: Instalação do Pacotes
     win_chocolatey:
         name: firefox
         state: present
