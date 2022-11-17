@@ -1,0 +1,17 @@
+---
+- hosts: all
+  tasks:
+
+  - name: Install package dependencies
+    win_chocolatey:
+      name:
+       - chocolatey-core.extension
+       - chocolatey-windowsupdate.extension
+      state: present
+
+  - name: Install VS Code and PowerShell Preview
+    win_chocolatey:
+      name:
+      - vscode.install
+      - powershell-preview
+      state: present
