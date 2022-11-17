@@ -1,7 +1,6 @@
 ---
 - hosts: all
   tasks:
-
   - name: Install package dependencies
     win_chocolatey:
       name:
