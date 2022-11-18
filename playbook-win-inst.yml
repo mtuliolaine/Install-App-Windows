@@ -9,7 +9,7 @@
       - notepadplusplus
   tasks:
     - name: install packages
-      chocolatey.chocolatey.win_chocolatey:
+      win_chocolatey:
         name: "{{ packages }}"
         state: present
 ...
