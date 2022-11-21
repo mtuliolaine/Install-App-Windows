@@ -8,6 +8,8 @@
       - git
       - notepadplusplus
       - office365business
+      - teamviewer
+      - firefox
   tasks:
     - name: install packages
       win_chocolatey:
