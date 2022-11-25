@@ -13,10 +13,5 @@
       win_chocolatey:
         name: "{{ packages }}"
         state: present
-  tasks:
-    - name: remover packages
-      win_chocolatey:
-        name: notepadplusplus
-        state: absent
 ...
 
