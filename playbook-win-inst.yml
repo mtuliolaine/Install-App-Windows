@@ -1,5 +1,5 @@
 ---
-- name: win_chocolatey module
+- name: win_chocolatey module demo
   hosts: all
   become: false
   gather_facts: false
