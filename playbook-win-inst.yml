@@ -6,8 +6,6 @@
   vars:
     - packages:
       - git
-      - notepadplusplus
-      - office365business
       - teamviewer
       - firefox
   tasks:
@@ -15,4 +13,10 @@
       win_chocolatey:
         name: "{{ packages }}"
         state: present
+  tasks:
+    - name: remover packages
+      win_chocolatey:
+        name: notepadplusplus
+        state: absent
 ...
+
