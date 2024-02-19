@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T17:36:19.714Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="k0xxJDMUEOrv9beirv0S" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T17:47:04.430Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uXx24WYmhaCLS2Djq4oO" version="23.1.5" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
-    <mxGraphModel dx="2986" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2986" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry x="590" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dWeeruLZoZ9HQvfYhUeR-8" value="120 Mbps Download&lt;br&gt;20 Mbps Upload" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="189" width="132" height="60" as="geometry" />
+          <mxGeometry x="590" y="194" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dWeeruLZoZ9HQvfYhUeR-9" value="500 Mbps Download&lt;br&gt;300 Mbps Upload" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="81" y="189" width="132" height="60" as="geometry" />
@@ -213,6 +213,27 @@
         </mxCell>
         <mxCell id="dWeeruLZoZ9HQvfYhUeR-68" value="AD/DHCP/DNS/RADIUS&lt;br&gt;WDS - SERVIDOR DE ARQUIVOS&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="244" y="687" width="206" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="dWeeruLZoZ9HQvfYhUeR-70" value="Modem Algar Telecom" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="298" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dWeeruLZoZ9HQvfYhUeR-71" value="600 Mbps Download&lt;br&gt;300 Mbps Upload" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="199" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWeeruLZoZ9HQvfYhUeR-72" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="1c7a67bf8fd3230f-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760.0186003656249" y="150.00397791593838" as="sourcePoint" />
+            <mxPoint x="851" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWeeruLZoZ9HQvfYhUeR-73" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="1c7a67bf8fd3230f-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="149" as="sourcePoint" />
+            <mxPoint x="861" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWeeruLZoZ9HQvfYhUeR-69" value="" style="shape=mxgraph.cisco.modems_and_phones.cable_modem;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="836.5" y="251" width="74" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
